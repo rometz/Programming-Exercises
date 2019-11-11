@@ -1,10 +1,10 @@
-let rangeArray = []
+let rangeArray = [];
 
 function range(start, end, step) {
     for (i = start; i <= end; i += step) {
         rangeArray.push(i);
     }
-    return rangeArray
+    return rangeArray;
 }
 
 function sum(array) {
